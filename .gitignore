@@ -1,0 +1,5 @@
+# nur das Handbuch veröffentlichen
+*
+!index.html
+!README.md
+!.gitignore
