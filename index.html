@@ -390,9 +390,9 @@ const UI = {
 
 const STEPS = [
 /* 1 */ {phase:0,icon:"rotate-ccw",
-  de:{t:"Gerät zurücksetzen",intro:"Das Allererste: Wir setzen das Gerät auf die Werkseinstellungen zurück.",steps:["Auf der Fernbedienung das <b>Menü</b> öffnen.","<b>Configuration 1</b> auswählen.","Nach unten zu <b>Zurücksetzen</b> navigieren und bestätigen."],note:{type:"tip",t:"Was passiert",x:"Nach dem Reset startet das Gerät neu und zeigt den Sprachauswahl-Bildschirm."}},
-  en:{t:"Reset the device",intro:"First of all: we reset the device to factory settings.",steps:["Open the <b>Menu</b> on the remote control.","Select <b>Configuration 1</b>.","Navigate down to <b>Reset</b> and confirm."],note:{type:"tip",t:"What happens",x:"After the reset the device reboots and shows the language selection screen."}},
-  ko:{t:"기기 초기화",intro:"가장 먼저: 기기를 공장 초기화 설정으로 되돌립니다.",steps:["리모컨에서 <b>메뉴</b>를 엽니다.","<b>Configuration 1</b>을 선택합니다.","아래로 이동하여 <b>초기화(Reset)</b>를 선택하고 확인합니다."],note:{type:"tip",t:"진행 상황",x:"초기화 후 기기가 재시작되고 언어 선택 화면이 표시됩니다."}}},
+  de:{t:"Gerät zurücksetzen",intro:"Das Allererste: Wir setzen das Gerät auf die Werkseinstellungen zurück.",steps:["Auf der Fernbedienung das <b>Menü</b> öffnen.","<b>Configuration 1</b> auswählen.","Nach unten zu <b>Factory Reset</b> navigieren und bestätigen."],note:{type:"tip",t:"Was passiert",x:"Nach dem Reset startet das Gerät neu und zeigt den Sprachauswahl-Bildschirm."}},
+  en:{t:"Reset the device",intro:"First of all: we reset the device to factory settings.",steps:["Open the <b>Menu</b> on the remote control.","Select <b>Configuration 1</b>.","Navigate down to <b>Factory Reset</b> and confirm."],note:{type:"tip",t:"What happens",x:"After the reset the device reboots and shows the language selection screen."}},
+  ko:{t:"기기 초기화",intro:"가장 먼저: 기기를 공장 초기화 설정으로 되돌립니다.",steps:["리모컨에서 <b>메뉴</b>를 엽니다.","<b>Configuration 1</b>을 선택합니다.","아래로 이동하여 <b>Factory Reset</b>을 선택하고 확인합니다."],note:{type:"tip",t:"진행 상황",x:"초기화 후 기기가 재시작되고 언어 선택 화면이 표시됩니다."}}},
 
 /* 2 */ {phase:0,icon:"languages",
   de:{t:"Sprache auswählen",intro:"Nach dem Reset erscheint der Sprachauswahl-Bildschirm.",steps:["Im Sprachauswahl-Bildschirm auf <b>Englisch</b> klicken."],note:{type:"info",t:"Wichtig",x:"Die Geräte-Sprache ist immer Englisch."}},
@@ -455,16 +455,11 @@ const STEPS = [
   ko:{t:"Boot on Source 설정",intro:"기기의 부팅 소스를 지정합니다.",steps:["<b>홈</b> → 메뉴 → <b>Configuration 1</b>.","<b>Boot on Source</b>를 <b>Off</b>로 설정합니다.","그 아래에서 <b>Custom</b>을 선택합니다."]}},
 
 /* 14 */ {phase:3,icon:"monitor-play",
-  de:{t:"Signage Display Quelle setzen",intro:"Den Prime Cloud Player als Quelle festlegen.",steps:["Hauptmenü: <b>Haus</b> → <b>Configuration 1</b> → <b>Android Launcher</b>.","Auf <b>Settings</b> klicken.","<b>Signage Display</b> öffnen (blau markiert).","<b>Source Settings</b> → <b>Custom App</b> auswählen.","<b>Prime Cloud Player</b> auswählen und bestätigen."]},
-  en:{t:"Set the signage display source",intro:"Define the Prime Cloud Player as the source.",steps:["Main menu: <b>Home</b> → <b>Configuration 1</b> → <b>Android Launcher</b>.","Click <b>Settings</b>.","Open <b>Signage Display</b> (marked blue).","<b>Source Settings</b> → select <b>Custom App</b>.","Select <b>Prime Cloud Player</b> and confirm."]},
-  ko:{t:"Signage Display 소스 설정",intro:"Prime Cloud Player를 소스로 지정합니다.",steps:["메인 메뉴: <b>홈</b> → <b>Configuration 1</b> → <b>Android Launcher</b>.","<b>Settings</b>를 클릭합니다.","<b>Signage Display</b>(파란색 표시)를 엽니다.","<b>Source Settings</b> → <b>Custom App</b>을 선택합니다.","<b>Prime Cloud Player</b>를 선택하고 확인합니다."]}},
+  de:{t:"Signage Display Quelle setzen",intro:"Den Prime Cloud Player als Quelle festlegen.",steps:["Hauptmenü: <b>Haus</b> → <b>Configuration 1</b> → <b>Android Launcher</b>.","Auf <b>Settings</b> klicken.","<b>Signage Display</b> öffnen (aubergine markiert).","<b>Source Settings</b> → <b>Custom App</b> auswählen.","<b>Prime Cloud Player</b> auswählen und bestätigen."]},
+  en:{t:"Set the signage display source",intro:"Define the Prime Cloud Player as the source.",steps:["Main menu: <b>Home</b> → <b>Configuration 1</b> → <b>Android Launcher</b>.","Click <b>Settings</b>.","Open <b>Signage Display</b> (marked aubergine).","<b>Source Settings</b> → select <b>Custom App</b>.","Select <b>Prime Cloud Player</b> and confirm."]},
+  ko:{t:"Signage Display 소스 설정",intro:"Prime Cloud Player를 소스로 지정합니다.",steps:["메인 메뉴: <b>홈</b> → <b>Configuration 1</b> → <b>Android Launcher</b>.","<b>Settings</b>를 클릭합니다.","<b>Signage Display</b>(가지색 표시)를 엽니다.","<b>Source Settings</b> → <b>Custom App</b>을 선택합니다.","<b>Prime Cloud Player</b>를 선택하고 확인합니다."]}},
 
-/* 15 */ {phase:3,icon:"text-cursor-input",
-  de:{t:"Quelle umbenennen",intro:"Den Custom Source Name anpassen.",steps:["Unter <b>Custom Source Name</b> die Quelle <b>HDMI 1</b> in <b>prime</b> umbenennen."]},
-  en:{t:"Rename the source",intro:"Adjust the custom source name.",steps:["Under <b>Custom Source Name</b>, rename the source <b>HDMI 1</b> to <b>prime</b>."]},
-  ko:{t:"소스 이름 변경",intro:"Custom Source Name을 변경합니다.",steps:["<b>Custom Source Name</b>에서 소스 <b>HDMI 1</b>을 <b>prime</b>으로 변경합니다."]}},
-
-/* 16 */ {phase:3,icon:"party-popper",
+/* 15 */ {phase:3,icon:"party-popper",
   de:{t:"Boot bestätigen, Neustart & Test",intro:"Letzter Schliff und Funktionstest.",steps:["Nochmal <b>Home</b> → <b>Configuration 1</b> → <b>Boot on Source</b>.","Auf <b>Off</b> klicken und <b>Custom</b> auswählen.","Alles ausmachen und <b>neu starten</b>.","Prüfen, ob alles funktioniert."],finish:true},
   en:{t:"Confirm boot, restart & test",intro:"Final touch and functional test.",steps:["Again <b>Home</b> → <b>Configuration 1</b> → <b>Boot on Source</b>.","Click <b>Off</b> and select <b>Custom</b>.","Turn everything off and <b>restart</b>.","Check that everything works."],finish:true},
   ko:{t:"부팅 확인, 재시작 및 테스트",intro:"마지막 점검 및 작동 테스트.",steps:["다시 <b>홈</b> → <b>Configuration 1</b> → <b>Boot on Source</b>.","<b>Off</b>를 클릭하고 <b>Custom</b>을 선택합니다.","모두 끄고 <b>재시작</b>합니다.","모든 것이 작동하는지 확인합니다."],finish:true}}
